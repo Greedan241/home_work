@@ -1,0 +1,12 @@
+p.text--bold {
+    color: peru;
+    font-size: 20px;
+}
+
+.child {
+    border: 2px solid seagreen;
+}
+
+a[href="#blog"] {
+    color: red;
+}
