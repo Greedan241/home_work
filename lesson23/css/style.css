@@ -1,0 +1,16 @@
+.block {
+    margin-top: 10vh;
+    height: 40vh;
+    width: 100%;
+    background: url(../image/puppy.jpg) 50% 30% no-repeat,repeating-radial-gradient(#d80ddf, black 80px, white 100px, white 200px);
+}
+
+/* .block {
+    margin-top: 10vh;
+    height: 40vh;
+    width: 100%;
+    background-image: url(../image/puppy.jpg), repeating-radial-gradient(#d80ddf, black 80px, white 100px, white 200px);
+    background-repeat: no-repeat; 
+    background-position: 50% 30%;
+} */
+

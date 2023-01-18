@@ -1,0 +1,16 @@
+.mods__title {
+    font-size: 5rem;
+    margin-bottom: 50px;
+}
+
+.mods__text {
+    font-size: 2rem;
+    line-height: 150%;
+    margin-bottom: 50px;
+}
+
+.mods__text-1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
