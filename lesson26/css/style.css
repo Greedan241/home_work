@@ -1,0 +1,25 @@
+p{
+    font-size: 3rem;
+    color: #000;
+}
+
+.block {
+    margin: 100px 5px;
+    border: 5px solid;
+    color: #000;
+}
+
+.block {
+    /* Универсальные свойства  */
+    transition: color 3s 2s;
+
+    /* Обычные свойства  */
+    
+    /* transition-duration: 3s;
+    transition-delay: 2s; */
+}
+
+.block:hover {
+    color: rgb(239, 30, 30);
+}
+
