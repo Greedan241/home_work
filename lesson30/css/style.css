@@ -1,0 +1,13 @@
+.menu {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.menu__item:first-child:hover {
+    color: rgb(194, 109, 109);
+}
+
+.menu__item:first-child {
+    transition: 0.4s;
+}
