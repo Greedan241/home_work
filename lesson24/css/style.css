@@ -1,7 +1,9 @@
 .block {
-    position: fixed; 
-    width:calc(50% - 50px);
+    background-color: #333;
+    height: 500px;
+    position: fixed;
     border-radius: 100%;
+    left:50%; 
     bottom: 100px;
     right: 50px;
 }
