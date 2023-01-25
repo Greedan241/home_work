@@ -1,0 +1,161 @@
+body {
+    font-family: "Manrope", sans-serif;
+}
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.header {
+    max-width: 1330px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header__top {
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+}
+.container__nav {
+    margin-left: auto;
+}
+.nav__list {
+    display: flex;
+}
+.nav__item {
+    padding-left: 40px;
+    font-weight: 600;
+    color: #1E1B1B;
+}
+.nav__item:last-child {
+    padding: 0 32px 0 40px;
+}
+.nav__item:first-child {
+    padding: 0;
+}
+.container__line{
+    border-left: 1px solid #939191;
+    height: 42px;
+    opacity: 0.36;
+}
+.container__info {
+    padding-left: 32px;
+}
+.info {
+    display: flex;
+    align-items: center;
+    
+}
+.info__image {
+    padding-right: 14px;
+    
+}
+.info__text {
+    opacity: 0.7;
+    line-height: 24px;
+}
+.info__tel {
+    font-size: 18px;
+    line-height: 175%;
+}
+
+/* ------------------------------------------  */
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.main__content {
+}
+.description {
+}
+.description__title {
+    font-size: 64px;
+    font-weight: 800;
+    max-width: 624px;
+    line-height: 84px;
+    margin-bottom: 32px;
+    letter-spacing: -0.03em;
+}
+.button {
+    display: flex;
+    align-items: center;
+}
+.button__service {
+    background-color: #FF6433;
+    width: 203px;
+    height: 64px;
+    border-radius: 12px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 33px;
+}
+
+.play-video__link{
+    min-width: 140px;
+    min-height: 48px;
+    display: flex;
+    font-weight: 500;
+    color: #1E1B1B;
+    line-height: 19px;
+    align-items: center;
+    padding: 16px 12px;
+    
+}
+
+.play-video__player {
+    padding-left: 8px;
+    font-family: "Roboto", sans-serif;
+}
+
+.timetable {
+    display: flex;
+    margin-top: 48px;
+    min-width: 56px;
+    align-items: center;
+}
+.timetable__icon {
+    padding-right: 13px;
+}
+.timetable__text {
+}
+.timetable__text-1 {
+    font-weight: 500;
+    color: #939191;
+    line-height: 24px;
+}
+.timetable__text-2 {
+    font-weight: 600;
+    color: #1E1B1B;
+    font-size: 18px;
+    line-height: 31.5px;
+}
+
+.main-container{
+    position: relative;
+    width: 605px;
+    height: 632px;
+    background-image: url(../image/title_Image.jpg);
+}
+.main__raiting {
+    position: absolute;
+    /* opacity: 0.4; */
+    align-items: center;
+    background-color: #fff;
+    min-height: 102px;
+    min-width: 326px;
+    border-radius: 59px;
+    border: 12px solid rgba(225, 225, 225, 0.43);
+    box-shadow: 0px 28px 118px rgba(109, 108, 115, 0.12);
+}
+
+
+
